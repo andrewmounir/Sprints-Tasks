@@ -1,0 +1,9 @@
+StakeHolders:
+1- users who use the application.
+2- Owner of the project
+3- Partners (suppliers) who offer the disscounts.
+4- Marketing Team
+5- Accounting Team
+6- Payment services partners
+7- Goverment
+8- Development Team
