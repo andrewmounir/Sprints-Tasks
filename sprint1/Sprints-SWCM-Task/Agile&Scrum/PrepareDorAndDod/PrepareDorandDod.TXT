@@ -1,0 +1,22 @@
+Defenition of Ready (DOR)
+
+shared understanding with the scrum team of what the product backlog requires before the team start working on it.
+
+. clear user stories written in the PBL
+
+. Acceptance of what done might look like
+
+. Estimated effor or complexity
+
+. Agreement from the product owner that the PBL is ready
+
+
+Defenition of Done ( DoD)
+
+shared understanding and acceptance of what a completed increment of sprint end looks like and what is the criteria of acceptance to say that this product or sprint is done correctly was it tested ? was all the scenarios applied ?
+
+
+. All code has been written and reviewed 
+. All units have been written and passed
+. All functunional and acceptance tests have been written and passed
+. the product owner has reviewed and accepted the PBL

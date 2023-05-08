@@ -1,0 +1,61 @@
+# Epic1 User Story 
+As a <Food customer> I want <to create account> so that < I may be able to sign in and use the service to order food and add my location and my info>
+
+# Epic2 User Story
+As a <Food customer> I want <to view all resturants> so that < i can pick up my favourite resturant to eat from>
+
+
+# Epic3 User Story
+As a <Food customer> I want <search Resturants> so that < i can search and eat from my favourite resturant >
+
+
+# Epic4 User Story
+As a <Food customer> I want <view menu> so that < so that i can view my favourite items with its price>
+
+# Epic5 User Story
+As a <Food customer> I want <Add to cart> so that < i can know what has been orderd from my side and to list all items i wanted>
+
+
+
+# Epic6 User Story
+As a <Food customer> I want <to purchase> so that < i might be able to receive the order and to make the resturant start cooking it>
+
+
+
+# Epic7 User Story
+As a <Resturant User> I want <Restaurnt view order> so that < i can know what my customers have orderd to prepare it for them>
+
+
+
+# Epic8 User Story
+As a <Resturant User> I want <Restaurant marks order as delivered> so that < so that i might be able to prove to the customer that it has been deliverd and he took the order>
+
+
+
+# Epic9 User Story
+As a <Resturant User> I want <Cancel order> so that < customer may know that there orderd has been canceld for some reason example out of region , or resturant has no more of this item>
+
+
+# Epic10 User Story
+As a <Food User> I want <to Rate order> so that < i could appreciate what went well or what went wrong to other food customers or to the resturant>
+
+
+
+now we have the epics and its time for the sprint planning after we discuss the product backlog and divide  should take about 2 weeks here is an example
+
+product backlog     sprint number         SP/HRS      Assigment          lesson learned
+epic1                 sprint 1            3 days      Team 1             security is essential
+
+epic2                 sprint 1            3 days        Team 2          not that Famous resturants have multiple names
+
+epic3                 sprint 1            3 days       Team 1            Menus differ from country to country
+
+epic4                 sprint 1            3 days        team 2           Native development is smoother
+
+epic5                 sprint 1            3 days       team1             payment methods have different api`s there is no rule all
+
+epic6                 sprint1             3 days       team2             need more storage on the cloud
+
+epic7		      sprint1             3days        team1             team1 has some problems in the backend skills
+
+epic 8 		      sprint1              3days       team2             its better to use react framework will make visual enhancments easier than pure css          
