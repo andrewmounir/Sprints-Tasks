@@ -1,0 +1,20 @@
+#header {
+  border-bottom: 1px solid black;
+  color: blue;
+  font-size: 50px;
+}
+
+#imageChair {
+  border: 1px solid blue;
+  margin-left: 30%;
+  transform: scaleX(-1);
+  width: 25%;
+}
+
+/* h3 {
+  margin-left: 0;
+} */
+
+.productinfo {
+  font-weight: bold;
+}
