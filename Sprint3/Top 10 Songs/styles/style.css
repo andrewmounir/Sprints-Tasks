@@ -1,0 +1,62 @@
+.headerTitle {
+  color: white;
+  margin-top: 15%;
+  display: block;
+  text-align: center;
+  font-size: 45px;
+
+}
+
+body {
+  background-color: #532a7f;
+}
+
+.body1{
+
+color: white;
+margin: 0 500px;
+text-align: center;
+font-family: sans-serif;
+padding: 17px 7px;
+}
+
+.showMeButton{
+display: block;
+margin: auto;
+background-color: #EFEFEF;
+color: #532a7f;
+font-family: sans-serif;
+font-size: 35px;
+border-color: #EFEFEF;
+padding: 15px;
+}
+
+.musicBox{
+
+border: solid 1px white;
+
+width: 600px;
+margin: auto;
+}
+
+li{
+
+   display: inline-block;
+line-height: 50px;
+  margin-left: 1px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.numberdBox{
+
+border: inset 1px c41a9f;
+font-size: 25px;
+/* text-align: left; */
+background-color: #c41a9f;
+
+}
+
+.hidden {
+    display: none;
+  }
