@@ -1,0 +1,219 @@
+#top-Nav {
+  display: flex;
+  border: 1px solid #f5f5f2;
+  background-color: #f5f5f5;
+  border-radius: 5%;
+  margin-top: 0;
+}
+
+.links {
+  width: 50%;
+}
+.accountSettings {
+  width: 50%;
+  padding-left: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  list-style: none;
+}
+
+.logo-Section {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin: 20px 4px;
+}
+
+.bigLogo {
+  width: 33.33%;
+}
+.searchBar {
+  width: 33.33%;
+}
+
+.searchBarsize {
+  width: 70%;
+  height: 30%;
+}
+.searchBarButton {
+  height: 40%;
+  width: 10%;
+}
+.contactInfo {
+  width: 33.33%;
+  display: flex;
+}
+
+.infoText {
+  color: #7b70e9;
+  width: 50%;
+  font-size: 40px;
+  margin-top: 0px;
+}
+.customerServiceNumber {
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 0px;
+}
+
+.categoriesSection {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin: 20px 4px;
+  border: 1px #3a464e solid;
+  background-color: #3a464e;
+}
+
+.catergory {
+  display: flex;
+  margin-left: 5%;
+  width: 33%;
+  border: 1px solid #f3d329;
+  background-color: #f3d329;
+  font-size: 24px;
+}
+
+.categories-Links {
+  width: 33%;
+}
+
+.shopping-Buttons {
+  width: 33%;
+}
+
+.menuButton {
+  border: none;
+  background-color: #f3d329;
+  padding-left: 10%;
+}
+
+.downArrow {
+  border: none;
+  background-color: #f3d329;
+  padding-left: 40%;
+}
+
+.loveButton {
+  border: none;
+  background-color: #3a464e;
+  color: #f3d329;
+  padding: 23px;
+  padding-left: 50%;
+  font-size: 20px;
+}
+
+.cartButton {
+  border: none;
+  background-color: #3a464e;
+  color: #f3d329;
+  font-size: 20px;
+}
+
+.categories-List {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  list-style: none;
+  font-size: 25px;
+  color: white;
+}
+
+.bonusSection {
+  width: 100%;
+}
+.photos {
+  display: flex;
+  width: 100%;
+}
+.picMain {
+  width: 50%;
+  height: auto;
+}
+
+.picSide {
+  width: 100%;
+}
+.sidePicture1 {
+  width: 100%;
+}
+.sidePicture2 {
+  width: 100%;
+
+}
+
+.sidePics{
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.features {
+  margin: 50px;
+  gap: 100px;
+  
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.featureButtons {
+  font-size: 50px;
+  background-color: white;
+  border: 1px solid white;
+  color: #3a464e;
+}
+
+.mainBody {
+  background-color: #f5f5f2;
+}
+
+.centertedText {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-99%, -10%);
+  line-height: 50px;
+  font-size: 22px;
+  color: white;
+
+}
+
+.pictureButtons{
+border: none  ;
+background-color: aliceblue ;
+
+margin-left: 40%;
+font-size: 40px;
+border: 1px ;
+
+
+
+
+}
+
+
+
+.textPhoto2 {
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textPhoto3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
