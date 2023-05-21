@@ -58,6 +58,7 @@
   font-size: 20px;
   margin-left: 20%;
   margin-top: 0px;
+  
 }
 
 .categoriesSection {
@@ -67,6 +68,7 @@
   margin: 20px 4px;
   border: 1px #3a464e solid;
   background-color: #3a464e;
+
 }
 
 .catergory {
@@ -152,17 +154,22 @@
   position: relative;
   text-align: center;
   color: white;
+  margin-left: 15px;
 }
 
 
 .features {
-  margin: 50px;
-  gap: 100px;
-  
 
+  gap: 100px;
+
+padding: 50px;
   position: relative;
   text-align: center;
   color: white;
+
+  
+
+
 }
 
 .featureButtons {
@@ -170,6 +177,8 @@
   background-color: white;
   border: 1px solid white;
   color: #3a464e;
+  padding: 60px;
+
 }
 
 .mainBody {
