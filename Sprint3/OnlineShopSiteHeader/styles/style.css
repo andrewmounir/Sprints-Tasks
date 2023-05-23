@@ -58,7 +58,6 @@
   font-size: 20px;
   margin-left: 20%;
   margin-top: 0px;
-  
 }
 
 .categoriesSection {
@@ -68,7 +67,6 @@
   margin: 20px 4px;
   border: 1px #3a464e solid;
   background-color: #3a464e;
-
 }
 
 .catergory {
@@ -146,30 +144,22 @@
 }
 .sidePicture2 {
   width: 100%;
-
 }
 
-.sidePics{
-
+.sidePics {
   position: relative;
   text-align: center;
   color: white;
   margin-left: 15px;
 }
 
-
 .features {
-
   gap: 100px;
 
-padding: 50px;
+  padding: 50px;
   position: relative;
   text-align: center;
   color: white;
-
-  
-
-
 }
 
 .featureButtons {
@@ -178,7 +168,6 @@ padding: 50px;
   border: 1px solid white;
   color: #3a464e;
   padding: 60px;
-
 }
 
 .mainBody {
@@ -193,26 +182,18 @@ padding: 50px;
   line-height: 50px;
   font-size: 22px;
   color: white;
-
 }
 
-.pictureButtons{
-border: none  ;
-background-color: aliceblue ;
+.pictureButtons {
+  border: none;
+  background-color: aliceblue;
 
-margin-left: 40%;
-font-size: 40px;
-border: 1px ;
-
-
-
-
+  margin-left: 40%;
+  font-size: 40px;
+  border: 1px;
 }
-
-
 
 .textPhoto2 {
-
   position: absolute;
   top: 20%;
   left: 50%;
@@ -224,5 +205,4 @@ border: 1px ;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
