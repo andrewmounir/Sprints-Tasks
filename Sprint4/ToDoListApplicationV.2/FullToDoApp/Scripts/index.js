@@ -86,7 +86,6 @@ let saveButton = function (i) {
   let editedOrder = document.getElementById(`editInput2${i}`).value;
   taskList[i].Name = editedDoc;
   taskList[i].order = editedOrder;
-  console.log(taskList);
   renderTable();
 };
 // Cancel Button
