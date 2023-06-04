@@ -19,7 +19,7 @@ let addTask = function () {
 };
 
 let validate = function (taskObject) {
-  if (taskObject.Name && taskObject.order ) {
+  if (taskObject.Name && taskObject.order) {
     return true;
   } else {
     return false;
@@ -61,7 +61,7 @@ sortTable = function () {
 //Edit Button
 editText = function (i, clicked) {
   oldyTaskName = oldValue(taskList[i].Name);
-  oldyOrder = oldValue2(taskList[i].order)
+  oldyOrder = oldValue2(taskList[i].order);
   clicked = true;
 
   if (clicked === true) {
@@ -83,7 +83,9 @@ convertButtons = function (i, oldValue) {
 // Save Button
 let saveButton = function (i) {
   let editedDoc = document.getElementById(`editInput${i}`).value;
+  let editedOrder = document.getElementById(`editInput2${i}`).value;
   taskList[i].Name = editedDoc;
+  taskList[i].order = editedOrder;
   console.log(taskList);
   renderTable();
 };
