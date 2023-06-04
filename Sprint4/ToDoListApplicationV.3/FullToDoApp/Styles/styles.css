@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+}
+
+.container {
+  text-align: center;
+}
+
+.tableDesign {
+  margin: 20px 800px;
+
+  border-collapse: separate;
+}
+
+tr td {
+  border-bottom: 1px solid ;
+
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
