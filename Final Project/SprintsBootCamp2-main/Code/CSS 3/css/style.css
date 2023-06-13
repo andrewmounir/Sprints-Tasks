@@ -1,0 +1,59 @@
+
+
+.float-container > div > div:hover {
+  background-color: rgb(51, 70, 236);
+  transform: rotate(15deg) scale(1.1) translateX(-15px);
+}
+.float-container > div {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.float-container > div > div {
+  height: 100px;
+  margin: 50px;
+  background-color: rgb(247, 102, 102);
+  border: 1px solid black;
+  box-shadow: 10px 10px 8px 10px #888888;
+  transition: 0.3s ease-out;
+  /* transition-delay: 1s; */
+}
+
+.float-container > .double {
+  width: 50%;
+}
+
+.float-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-container > div {
+  height: 100px;
+  background-color: rgb(247, 102, 102);
+  border: 1px solid black;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+  gap: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .float-container > div {
+    width: 50%;
+  }
+  .float-container > .double {
+    width: 50%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

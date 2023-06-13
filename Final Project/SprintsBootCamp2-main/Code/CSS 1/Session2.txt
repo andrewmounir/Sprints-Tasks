@@ -1,0 +1,15 @@
+Tables
+Lists
+IFrame (Youtube example) https://www.youtube.com/embed/?autoplay=1&mute=1&controls=1
+CSS (Internal, External(rel,href), and Inline)
+Text Styling (Color, Size, Weight, Align, Decoration, Transformation)
+Image Styling (width, height, max-width,max-height and  objectfit)
+Borders, Shortened
+Block and Inline
+Selectors
+Pseudo Classes
+Colors
+Box Model and Auto Margin
+Block, Inline, Inline-Block
+Position
+Pseudo Elements

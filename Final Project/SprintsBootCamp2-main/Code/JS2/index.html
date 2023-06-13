@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .success {
+        color: green;
+      }
+      .danger {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input
+        class="form-control"
+        type="password"
+        value=""
+        placeholder="Password"
+        id="password"
+      />
+      <div id="result"></div>
+      <button class="btn btn-success" id="login" onclick="checkPassword()">
+        Log in (3 trials)
+      </button>
+    </div>
+    <script src="./js/session2.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/test.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+Sort ToDo lists
+
+Implement the sorting functionality in the todo List application
+
+Study what Set and Map do
+Study DOM&BOM, Handling Events, and JS Algorithms videos
+
+Extract unique names from students.js file using map function and Set objects in JS

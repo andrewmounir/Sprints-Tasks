@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main-nav.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <nav id="top-nav">
+          <div class="links">
+            <ul>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/help">Help</a></li>
+              <li><a href="/faqs">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="menus">
+            <div class="menu">
+              <label
+                >My Account
+                <ul>
+                  <li><a href="">Sign in</a></li>
+                  <li><a href="">Sign out</a></li>
+                </ul>
+              </label>
+            </div>
+
+            <div class="menu">
+              <label
+                >USD
+                <ul>
+                  <li><a href="">EGP</a></li>
+                  <li><a href="">SAR</a></li>
+                </ul>
+              </label>
+            </div>
+            <div class="counters">counters</div>
+          </div>
+        </nav>
+        <!-- Logo Section-->
+        <div id="logo-section">
+          <div class="logo"></div>
+          <div class="search-bar"></div>
+          <div class="customer-service"></div>
+        </div>
+        <!-- End Logo Section-->
+        <!-- Main Nav-->
+        <nav id="main-nav">
+          <div class="categories">
+            <div class="menu">
+              <label>
+                <i class="fa-solid fa-bars"></i>
+                <span>Categories</span>
+                <i class="fa-solid fa-angle-down"></i>
+                <ul>
+                  <li>Cat 1</li>
+                  <li>Cat 1</li>
+                  <li>Cat 1</li>
+                  <li>Cat 1</li>
+                  <li>Cat 1</li>
+                </ul>
+              </label>
+            </div>
+          </div>
+          <div class="links">
+            <ul class="main-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Pages</a>
+                    <ul>
+                        <li>Shop details</li>
+                        <li>Shop details</li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+          </ul></div>
+          <div class="counters">
+            <div class="counter"><i class="fa-solid fa-heart"></i> <i class="circle">0</i></div>
+            <div class="counter"><i class="fa-solid fa-cart-shopping"></i> <i class="circle">0</i></div>
+          </div>
+        </nav>
+        <!-- End Main Nav-->
+      </header>
+
+      <!--Hero Section-->
+      <div class="hero">
+        <div class="main-ad">
+          <img src="./img/carousel-1.jpg" />
+        </div>
+        <div class="ad"><img src="./img/carousel-2.jpg" /></div>
+        <div class="ad"><img src="./img/carousel-3.jpg" /></div>
+      </div>
+      <!--End Hero Section-->
+
+      <!--Menu-->
+<style>
+  li{
+    list-style-type: none;
+  }
+  .menu-container{
+    position: relative;
+    width: fit-content;
+  }
+  .menu-container .menu-button{
+    background-color: yellow;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+  }
+  .menu-container .menu-button:hover + .list,
+  .menu-container .list:hover
+  {
+    display: block;
+  }
+  .menu-container .list{
+    display: none;
+    background-color: green;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+  .menu-container .list >li >ul{
+    display: none;
+    background-color: red;
+  }
+  .menu-container .list >li{
+    position: relative; 
+
+  }
+  .menu-container .list >li:hover > ul{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+
+  .menu-container .list > li >ul >li{
+    width: max-content;
+    min-width: 100px;
+  }
+
+</style>
+      <div class="menu-container">
+        <div class="menu-button">Categories</div>
+        <ul class="list">
+          <li>Item 1</li>
+          <li>Item 2
+            <ul>
+              <li>Sub 1</li>
+              <li>Sub 1</li>
+              <li>Sub 1</li>
+              <li>Sub 1</li>
+            </ul>
+          </li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </div>
+      <!--End Menu-->
+    </div>
+  </body>
+</html>

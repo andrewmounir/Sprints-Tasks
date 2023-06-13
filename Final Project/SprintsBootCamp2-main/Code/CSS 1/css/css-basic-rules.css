@@ -1,0 +1,44 @@
+h3 {
+  color: red !important;
+}
+#bluetext {
+  color: blue;
+}
+#header-div {
+  text-decoration: underline;
+  border: 5px dashed red;
+  /* border-width: 5px;
+  border-color: red;
+  border-style: dashed; */
+  /*
+    Text Styling (Color, Size, Weight, Align, Decoration, Transformation)
+    */
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: dashed line-through blue;
+  text-transform: uppercase;
+}
+
+/*Image Styling (width, height, max-width,max-height and  objectfit)*/
+.gallery-image {
+  border: 1px solid blue;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* display: block; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+a {
+  /* display: block; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

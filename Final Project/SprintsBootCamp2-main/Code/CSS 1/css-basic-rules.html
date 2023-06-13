@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basic Rules</title>
+    <!--Internal CSS Styling-->
+    <style>
+      h2 {
+        font-size: 32px;
+      }
+    </style>
+    <!--External Styling-->
+    <link rel="stylesheet" href="css/css-basic-rules.css" />
+  </head>
+  <body>
+    <div id="header-div">
+      <!-- Inline CSS Styling-->
+      <h1 style="color: blue">Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3 id="bluetext">Heading 3</h3>
+    </div>
+
+    <section>
+      <img src="./img/carousel-1.jpg" class="gallery-image" />
+      <img src="./img/cat-2.jpg" class="gallery-image" />
+      <img src="./img/cat-3.jpg" class="gallery-image" />
+    </section>
+    <br />
+    <div class="image-div">
+      <img
+        src="./img/carousel-1.jpg"
+        style="width: 100%; height: auto; max-width: 600px"
+      />
+    </div>
+    <div>
+      <a href="https://google.com">google</a>
+      <a href="https://google.com">yahoo</a>
+      <a href="https://google.com">FB </a>
+    </div>
+
+    <div
+      style="margin-top: 10px; padding-top: 10px; width: 400px; height: 400px"
+    >
+      Box Model
+    </div>
+  </body>
+</html>

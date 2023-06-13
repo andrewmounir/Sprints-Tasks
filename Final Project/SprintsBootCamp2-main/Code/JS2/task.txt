@@ -1,0 +1,12 @@
+To do App
+Create simple to do application that contains the following
+    . input for the task name and a number input for the priority
+    . add button to add the task into the task list at the end
+    . task list as an HTML table with remove button to remove the task from the list
+    . Validate the task name to be a valid name and priority must be > 0
+
+You can use document.getElementById().innerHTML to change the table content
+Try to separate the logic from the UI
+
+
+Review Objects, Arrays, and String videos

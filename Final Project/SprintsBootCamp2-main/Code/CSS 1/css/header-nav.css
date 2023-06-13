@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-nav {
+  background-color: rgb(237, 237, 237);
+  padding: 15px 40px;
+}
+.header-nav .links a {
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  font-size: 18px;
+  margin: 10px;
+}
+.header-nav .links a:hover{
+    text-decoration: underline;
+}

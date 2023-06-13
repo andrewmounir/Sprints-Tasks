@@ -1,0 +1,6 @@
+Review the following videos on the platform
+1. Introduction
+2. Javascript Language Essentials
+3. Loops
+
+Make the button work

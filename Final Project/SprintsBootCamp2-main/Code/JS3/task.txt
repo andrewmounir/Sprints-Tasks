@@ -1,0 +1,7 @@
+Add the update (edit task inline) functionality to the ToDo Application.
+You have to add an Edit button beside the delete button for each task, and
+when you click the edit button the table row have to change into input fields + 2 other buttons (save and cancel)
+
+Make a good UI.
+
+Study the videos OOP and (DOM & BOM)

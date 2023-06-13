@@ -1,0 +1,20 @@
+Review Header
+grid
+grid-template-columns
+grid-template-rows
+in items:
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+
+media
+box-shadow: 10px 10px 8px 10px #888888;
+https://www.w3schools.com/css/css3_transitions.asp
+https://www.w3schools.com/css/css3_3dtransforms.asp
+https://www.w3schools.com/css/css3_animations.asp
+
+Menu
+
+Implement 10 top songs
+Bootstrap
+RTL

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.round-gallery {
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+.square-gallery {
+  border: 1px solid red;
+}
+
+.round-gallery > div,
+.square-gallery > div {
+  width: 30%;
+  display: inline-block;
+  position: relative;
+}
+.round-gallery h1,
+.square-gallery h1 {
+  color: darkblue;
+  background-color: #ff000050;
+}
+.round-gallery p,
+.square-gallery p {
+  font-weight: bold;
+  color: darkcyan;
+}
+
+.round-gallery div img,
+.square-gallery div img {
+  width: 100%;
+  border: 1px solid rgb(30, 255, 3);
+}
+.round-gallery div img {
+  border-radius: 50%;
+}
+.round-gallery div img:hover {
+  border-color: red;
+}
+
+.round-gallery .item {
+  background-color: antiquewhite;
+}
+.square-gallery > div:last-child {
+  background-color: #4e4e4e;
+}
+
+.item-list li {
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+.item-list li:last-child {
+  border-bottom: none;
+  margin: 0 0;
+}
+/*
+Color Name
+rgb(16,255,3)
+#20FF03
+#FFFFFF
+#FFF
+#000
+rgba(r,g,b,a)
+#FF000010
+*/
+
+.margin-test-item {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.featured {
+  width: 300px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+body {
+  position: relative;
+}
+
+.test-p::first-letter {
+  color: red;
+  font: 32px;
+}
+.test-p::first-line {
+  color: blue;
+  font-weight: bold;
+}
+.test-p::selection {
+  color: blue;
+  font-weight: bold;
+}
+.round-gallery .item::before {
+  content: "This is a before content";
+  display: block;
+  background-color: aqua;
+  position: absolute;
+  top: 10px;
+}
+.round-gallery .item::after {
+  content: "This is an after content";
+  background-color: yellow;
+}

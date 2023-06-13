@@ -1,0 +1,6 @@
+Implement the following components (Online-shope homepage):
+Implement Layout
+    a. Complete missing code in Prev task
+    b. Hero Section
+    c. Features
+    d. Categories

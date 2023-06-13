@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css" />
+    <style>
+        body{
+            background-color: rgb(100, 0, 126);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        .container{
+            max-width: 700px;
+            margin: auto;
+            width: 100%;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .songs{
+            border: 4px white solid;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:30px;
+            font-size: 14px;
+        }
+        .song .number{
+            padding:10px;
+            background-color: blueviolet;
+        }
+
+        .fa-arrow-left::before{
+            content: "\f061" !important;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><i class="fa-sharp fa-solid fa-music"></i> Top 10 Songs</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sed minima
+        facere asperiores accusamus similique! Velit perspiciatis odio omnis, ut
+        qui sapiente molestiae, asperiores illum rerum, laudantium quasi
+        voluptatem placeat!
+        <i class="fa fa-arrow-left"></i>
+        
+      </p>
+      <div class="songs">
+        <div class="song">
+          <span class="number">#1</span>
+          <span class="song-name">Time to Pretend</span>
+        </div>
+
+        <div class="song">
+          <span class="number">#2</span>
+          <span class="song-name">Time to Pretend</span>
+        </div>
+
+        <div class="song">
+          <span class="number">#13</span>
+          <span class="song-name">Time to Pretend</span>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
