@@ -6,7 +6,7 @@ const fetchProducts = async () => {
     const responseRate = await fetch(urlRate);
     const rateData = await responseRate.json();
     const rate = rateData.rates.EGP;
-
+    
     const responseProducts = await fetch(urlProducts);
     const productsData = await responseProducts.json();
 
