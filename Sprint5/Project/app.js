@@ -6,9 +6,6 @@ const express = require(`express`);
 const app = express();
 app.use(express.json());
 
-app.get(`/viewproducts`, p.getProducts);
-app.post(`/create`, p.createProduct);
-
 const users = [
   {
     email: "sample@example.com",
@@ -30,10 +27,7 @@ const verify = (req, res, next) => {
   }
 };
 
-// app.get("/test", verify, (req, res) => {
-//   res.send("hello");
-// });
-
+// didnt apply validation here as there is no need only in registration its applied to confirm user has an email and password that matches the condition provided.
 app.post(`/login`, (req, res) => {
   const { email, password } = req.body;
   const user = users.find((user) => {
@@ -54,6 +48,7 @@ app.post(`/login`, (req, res) => {
   }
 });
 
+// validation middleware is applied here to ensure a correct email and password.
 app.post("/register", valid.validateProduct, (req, res) => {
   try {
     let { email, password, repeatPassword } = req.body;
@@ -71,7 +66,10 @@ app.post("/register", valid.validateProduct, (req, res) => {
     console.log(err);
   }
 });
-
+// verify the token middleware is applied on the below routes to ensure user is authenticated to do following tasks.
+//please note i dont have a database to store the token so its done manually with postman (bearer) but the logic is working when tested manually.
+app.get(`/viewproducts`, verify, p.getProducts);
+app.post(`/create`, verify, p.createProduct);
 app.put("/update", verify, p.updateProdcut);
 app.delete("/delete", verify, p.deleteProduct);
 
