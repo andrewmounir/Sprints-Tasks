@@ -1,0 +1,14 @@
+.filtersSection{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.filtersSection div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}

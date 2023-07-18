@@ -1,0 +1,19 @@
+<div class="filtersSection">
+    <h3>Filters</h3>
+    <div>
+        <div>
+            <input type="radio" id="all" name="filters" value="All" [(ngModel)]="filter" (change)="onFilterChanged()">
+            <label for="all">All ({{all}})</label><br>
+        </div>
+        
+        <div>
+            <input type="radio" id="Available" name="filters" value="Available" [(ngModel)]="filter" (change)="onFilterChanged()">
+            <label for="Available">Available Only ({{availableCount}})</label><br>
+        </div>
+        
+        <div>
+            <input type="radio" id="featured" name="filters" value="Featured" [(ngModel)]="filter" (change)="onFilterChanged()">
+            <label for="featured">Featured ({{featuredCount}})</label>
+        </div>
+    </div>
+</div>

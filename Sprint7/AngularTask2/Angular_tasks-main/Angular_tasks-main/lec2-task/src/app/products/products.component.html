@@ -1,0 +1,10 @@
+<filter-root [featuredCount]="featured" 
+    [availableCount]="availableCount" [all]="all"
+    (filterChangedEvent)="onFilterChanged($event)">
+</filter-root>
+
+<h1>Our Products</h1>
+
+<div class="productsSection"> 
+    <productItem *ngFor="let product of getProducts()" [product]="product"></productItem>
+</div>

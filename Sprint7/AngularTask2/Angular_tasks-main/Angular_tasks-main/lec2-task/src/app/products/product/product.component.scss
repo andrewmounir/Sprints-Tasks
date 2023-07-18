@@ -1,0 +1,39 @@
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .product-image {
+    width: 90%;
+    height: 35%;
+    object-fit: cover;
+  }
+  
+  .product-title {
+    margin-top: 15px;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  .product-price {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .product-tag {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 4px 8px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: greenyellow;
+  }
+
+  .not {
+    background-color: red;
+  }

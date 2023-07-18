@@ -1,0 +1,9 @@
+<div class="product-item">
+  <img [src]="product.imageProduct" alt="image" class="product-image">
+  <h3 class="product-title">{{product.nameProduct}}</h3>
+  <p class="product-price">${{product.priceProduct}}</p>
+  <span *ngIf="product.isAvailable; else not" class="product-tag">Available</span>
+  <ng-template #not>
+    <span class="product-tag not">Not Available</span>
+  </ng-template>
+</div>
